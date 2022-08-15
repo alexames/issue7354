@@ -84,9 +84,5 @@ On windows that means it starts with `C:/`, and on Linux it starts with an
 additional slash. These `#include`s should be:
 
 ```
-#include "C:/Users/Alexa/Programming/issue7354/generated/Baz_generated.h"
-```
-and
-``` 
-#include "/home/alex/src/issue7354/generated/Baz_generated.h"
+#include "generated/Baz_generated.h"
 ```
